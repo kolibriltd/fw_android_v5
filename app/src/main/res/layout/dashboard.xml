@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/background_style"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <!-- <RelativeLayout -->
+    <!-- android:id="@+id/rlTopbar" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="@drawable/top_bar" > -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnLogout" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerVertical="true" -->
+    <!-- android:layout_marginLeft="5dip" -->
+    <!-- android:text="@string/logout" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/textView1" -->
+    <!-- style="@style/topbar_text" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_centerInParent="true" -->
+    <!-- android:text="@string/title_dashboard" /> -->
+    <!-- </RelativeLayout> -->
+
+    <RelativeLayout
+        android:id="@+id/rlMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip" >
+
+        <Button
+            android:id="@+id/btnAppointments"
+            style="@style/large_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/appointments" />
+
+        <Button
+            android:id="@+id/btnCustomers"
+            style="@style/large_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAppointments"
+            android:layout_marginTop="30dp"
+            android:text="@string/customers" />
+
+        <Button
+            android:id="@+id/btnSetting"
+            style="@style/large_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCustomers"
+            android:layout_marginTop="30dp"
+            android:text="Settings"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnSyncNow"
+        style="@style/large_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Sync Now" android:layout_margin="22dip"/>
+
+</RelativeLayout>
