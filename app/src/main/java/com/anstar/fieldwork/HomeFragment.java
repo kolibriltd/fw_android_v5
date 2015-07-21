@@ -44,7 +44,7 @@ import java.util.Date;
 
 public class HomeFragment extends Fragment implements ModelDelegate<AppointmentInfo> {
     private static int APPOINTMENT_DETAIL = 1;
-    TextView appointments;
+    TextView appointments, customers;
     Date m_currentDate;
     ArrayList<AppointmentInfo> m_appointments = null;
     private ListView lstAppointment;
@@ -65,6 +65,18 @@ public class HomeFragment extends Fragment implements ModelDelegate<AppointmentI
                 ((DashboardActivity) getActivity()).getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.container, new AppointmentListFragment())
+                        .commit();
+            }
+        });
+        customers = (TextView) rootView.findViewById(R.id.textView11);
+        customers.setPaintFlags(customers.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        customers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ((DashboardActivity) getActivity()).getSupportActionBar().setTitle("Customers");
+                ((DashboardActivity) getActivity()).getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.container, new CustomerListFragment())
                         .commit();
             }
         });
@@ -304,8 +316,7 @@ public class HomeFragment extends Fragment implements ModelDelegate<AppointmentI
     }
 
     private void bindData() {
-        m_appointments = AppointmentModelList.Instance().getAppointmentBydate(
-                m_currentDate);
+        m_appointments = AppointmentModelList.Instance().getAppointmentBydate(m_currentDate, false);
         if (m_appointments.size() > 0) {
             m_adapter = new AppointmentAdapter(m_appointments);
             lstAppointment.setAdapter(m_adapter);

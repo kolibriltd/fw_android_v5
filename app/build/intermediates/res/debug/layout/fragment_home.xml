@@ -35,6 +35,34 @@
         android:id="@+id/listView"
         android:layout_below="@+id/relative_layut_2"
         android:layout_alignParentStart="true" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#292929"
+        android:id="@+id/relativeLayout1" android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+        android:layout_below="@+id/listView" android:paddingLeft="13dp" android:paddingTop="16dp"
+        android:paddingRight="16dp" android:paddingBottom="16dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView5" android:src="@drawable/ic_customers_white"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customers"
+            android:id="@+id/textView10"
+            android:layout_marginLeft="13dp" android:layout_marginStart="13dp"
+            android:textColor="#fff" android:textSize="18dp" android:layout_alignBottom="@+id/imageView5"
+            android:layout_toRightOf="@+id/imageView5" android:layout_toEndOf="@+id/imageView5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:id="@+id/textView11"
+            android:textColor="#fff" android:textSize="18dp" android:layout_alignTop="@+id/textView10"
+            android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
 
 </RelativeLayout>
 <!-- From: file:/home/enot/Рабочий%20стол/project/SOURCE/fieldwork_android-Version5/app/src/main/res/layout/fragment_home.xml -->

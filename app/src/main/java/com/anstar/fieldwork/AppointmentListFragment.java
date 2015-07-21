@@ -400,8 +400,7 @@ public class AppointmentListFragment extends Fragment implements OnClickListener
     }
 
     private void bindData() {
-        m_appointments = AppointmentModelList.Instance().getAppointmentBydate(
-                m_currentDate);
+        m_appointments = AppointmentModelList.Instance().getAppointmentBydate(m_currentDate, true);
         if (m_appointments.size() > 0) {
             lstAppointment.setVisibility(View.VISIBLE);
             txtAppointmentCount.setTextSize(28);

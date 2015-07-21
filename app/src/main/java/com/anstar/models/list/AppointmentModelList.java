@@ -249,12 +249,21 @@ public class AppointmentModelList implements ServiceHelperDelegate {
 		return m_list;
 	}
 
-	public ArrayList<AppointmentInfo> getAppointmentBydate(Date date) {
+	public ArrayList<AppointmentInfo> getAppointmentBydate(Date date, boolean home_s) {
 		ArrayList<AppointmentInfo> m_list = new ArrayList<AppointmentInfo>();
 		if (m_modelList != null) {
+			int i = 0;
 			for (AppointmentInfo appointmentInfo : m_modelList) {
 				if (Utils.isSameDate(appointmentInfo.getStartAtDate(), date)) {
-					m_list.add(appointmentInfo);
+					if (!home_s) {
+						if (i < 4) {
+							m_list.add(appointmentInfo);
+						}
+					}
+					else {
+						m_list.add(appointmentInfo);
+					}
+					i ++;
 				}
 			}
 		}
