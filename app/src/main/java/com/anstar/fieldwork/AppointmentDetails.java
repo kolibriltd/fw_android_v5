@@ -139,12 +139,12 @@ public class AppointmentDetails extends BaseActivity implements
 		// imgMap = (ImageView) findViewById(R.id.imgMap);
 		action = getSupportActionBar();
 		// action.setTitle("Appointment Details");
-		action.setTitle(Html
+		/*action.setTitle(Html
 				.fromHtml("<font color='"
 						+ getString(R.string.header_text_color)
-						+ "'>Work Order</font>"));
-		action.setHomeButtonEnabled(true);
-		action.setDisplayHomeAsUpEnabled(true);
+						+ "'>Work Order</font>"));*/
+/*		action.setHomeButtonEnabled(true);
+		action.setDisplayHomeAsUpEnabled(true);*/
 		rlAppointmentInfo = (RelativeLayout) findViewById(R.id.rlAppointmentInfo);
 		rlTargetPests = (RelativeLayout) findViewById(R.id.rlTargetPests);
 		rlMaterialUse = (RelativeLayout) findViewById(R.id.rlMaterialUse);

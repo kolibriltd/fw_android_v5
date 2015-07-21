@@ -4,38 +4,30 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/login_back_color" >
-
-    <!-- <RelativeLayout -->
-    <!-- android:id="@+id/rlTopbar" -->
-    <!-- android:layout_width="fill_parent" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:background="@drawable/top_bar" > -->
-
-
-    <!-- <TextView -->
-    <!-- android:id="@+id/textView1" -->
-    <!-- style="@style/topbar_text" -->
-    <!-- android:layout_width="wrap_content" -->
-    <!-- android:layout_height="wrap_content" -->
-    <!-- android:layout_centerInParent="true" -->
-    <!-- android:text="@string/title_login" /> -->
-    <!-- </RelativeLayout> -->
-
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/ic_applogo" />
-
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" android:id="@+id/linearLayout" android:gravity="center"
+        android:background="#e74c3a">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/logo_fieldwork" android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp" android:background="@drawable/logo_fieldwork"/>
+    </LinearLayout>
     <RelativeLayout
         android:id="@+id/rlMain"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imgLogo"
-        android:layout_margin="20dip"
-        android:paddingTop="50dip" >
+
+        android:paddingTop="50dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
 
         <!-- android:layout_below="@+id/rlTopbar" -->
 
@@ -72,12 +64,14 @@
 
         <Button
             android:id="@+id/btnLogin"
-            style="@style/login_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/edtPassword"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3c4248"
             android:layout_marginTop="30dp"
-            android:text="@string/title_login" />
+            android:text="@string/title_login"
+            android:background="@drawable/custion_bag_login" />
     </RelativeLayout>
 
 </RelativeLayout><!-- From: file:/home/enot/Рабочий%20стол/project/SOURCE/fieldwork_android-Version5/app/src/main/res/layout/login.xml -->

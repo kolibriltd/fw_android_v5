@@ -2,88 +2,88 @@
 <items version="2" >
 
     <item
-        jar="/home/oleg/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-01d13e65070288c7af35a2c15d1508598e97395f.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/exploded-aar/fieldwork_android-Version5/zBarScannerLibrary/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="8da4505bc9e9e6473db73cdd04752b2a32d1df26">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-5b6226247c195fe263ae0ae2f12f94ca1e87271d.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/json-simple-1.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1-90eca0a19ee334e510c95cb63a0099813a63c423.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/kitlocate.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="cb504527bdc44aed658534e58f95f510a553609f">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/kitlocate-a17dab170a2d12a82ef7985e58abb462090039fd.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-9131945feab001bd45e19592bdd80ce60638653b.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/httpmime-4.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f6b9ce4485869cc314171c554a436e6121783fbe">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/httpmime-4.1-1545b1e807fe7cf2ec66d6af94ba0845bb29e618.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/exploded-aar/fieldwork_android-Version5/zBarScannerLibrary/unspecified/jars/libs/zbar.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/zbar-946b1a590c1558abb51583421a224f6550b79c73.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-60141b5f4170e0db724ec76adc5959abd7b75832.jar" />
-    </item>
-    <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/core.jar"
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/core.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="bd6b097588487313f7a94914fb89d44238964977">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/core-4c5c6f8544f162262f64fc8b4193fae71bee9242.jar" />
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/core-e6d8a7697045c91793f678492b40402bce974196.jar" />
     </item>
     <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/BrotherPrintLibrary.jar"
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/kitlocate.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9d9609016c398e0d9eb8b8bd5ab26238aa6313be">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/BrotherPrintLibrary-7925e6e22d10d62e01253717392b2583fcb71fa7.jar" />
+        sha1="cb504527bdc44aed658534e58f95f510a553609f">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/kitlocate-7a87023a5de2893f81c98eaedc6a2ade5b7a4f75.jar" />
     </item>
     <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/libs/MobilePrintLib.jar"
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/httpmime-4.1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ea8b2220252f4e85d3161a9307dbec7624fc5f4f">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/MobilePrintLib-ee84fc83d4b275fef45eb58714d1c90d8a65e0c6.jar" />
+        sha1="f6b9ce4485869cc314171c554a436e6121783fbe">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/httpmime-4.1-957d3c99de5cd082b034344ae6c7a076c612a206.jar" />
     </item>
     <item
-        jar="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/oleg/AndroidStudioProjects/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-cd348ed8cb978d6a5a3ffa041fd2c0b862f2a1bd.jar" />
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-d22685e27912a3a65022f2f75d12da399de6ce93.jar" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-cb45de25033c3665320dd2cafe5df424fd028375.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/MobilePrintLib.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ea8b2220252f4e85d3161a9307dbec7624fc5f4f">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/MobilePrintLib-fc7b6c5130a9b60454cc0cb840aa2410e873c624.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-15d1cc1dcdf21977ccbe3d0be8fbffad9c64b3b2.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1-0eaa845db7e61c37c8a56b7bf98974c85693e873.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/fieldwork_android-Version5/zBarScannerLibrary/unspecified/jars/libs/zbar.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/zbar-4886752d03e5613f29205b85115205d4bd623316.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/fieldwork_android-Version5/zBarScannerLibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="30363a88fa37122eee9393a74be921318f3393d5">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-9ca113a9309c2b72d555755d34f02c20774a76d4.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/libs/BrotherPrintLibrary.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9d9609016c398e0d9eb8b8bd5ab26238aa6313be">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/BrotherPrintLibrary-1f6b70c67d8f683172b9d658de8e1d75cbc19ca9.jar" />
+    </item>
+    <item
+        jar="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/enot/Рабочий стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/pre-dexed/debug/classes-22bcb638951dac220a53785daabf4ff1063ffd06.jar" />
     </item>
 
 </items>

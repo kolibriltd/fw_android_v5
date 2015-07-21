@@ -61,7 +61,7 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
     private String[] mDrawerTitles;
     private int[] mDrawerValues;
 
-	private Button btnAppointments, btnCustomers, btnSettings, btnSyncNow;
+	private Button btnHome, btnAppointments, btnCustomers, btnSettings, btnSyncNow;
 	ActionBar action = null;
 	SharedPreferences setting;
 	static volatile ProgressDialog m_temppd = null;
@@ -118,12 +118,21 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
         mDrawerList.setAdapter(mListAdapter);
 
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                selectDrawerItem(position);
-            }
-        });
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+				selectDrawerItem(position);
+			}
+		});
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+		Fragment fragment = new HomeFragment();
+		FragmentManager fragmentManager = getSupportFragmentManager();
+		if (fragment != null) {
+			getSupportActionBar().setTitle(mDrawerTitles[0]);
+			fragmentManager.beginTransaction()
+					.replace(R.id.container, fragment, "calendar_fragment")
+					.commit();
+		}
+
 /*
 
         btnAppointments = (Button) findViewById(R.id.btnAppointments);
@@ -227,6 +236,7 @@ public class DashboardActivity extends AppCompatActivity implements OnClickListe
         switch (mDrawerValues[position - 1]) {
             case 0:
                 // Home
+				fragment = new HomeFragment();
                 break;
             case 1:
                 // Calendar

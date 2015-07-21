@@ -9,7 +9,7 @@
 
     <color name="background_color">#eeeeee</color>
     <color name="header_color">#D7DCD6</color>
-    <color name="login_back_color">#F0F0F0</color>
+    <color name="login_back_color">#fff</color>
 
     <!-- <color name="login_back_color">#cdcdcd</color> -->
     <!-- <color name="header_text_color">#ffffff</color> -->

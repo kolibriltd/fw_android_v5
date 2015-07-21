@@ -133,7 +133,7 @@
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
     <!-- From: file:/home/enot/Рабочий%20стол/project/SOURCE/fieldwork_android-Version5/app/src/main/res/values/color.xml -->
     <eat-comment/>
-    <color name="login_back_color">#F0F0F0</color>
+    <color name="login_back_color">#fff</color>
     <!-- From: file:/home/enot/Рабочий%20стол/project/SOURCE/fieldwork_android-Version5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -379,6 +379,7 @@
     <string name="address_title">IP address</string>
     <string name="address_value">Set the number of ip address </string>
     <string name="alertDialogMessage_runtimeError">Runtime error occurred </string>
+    <string name="app_home">Home</string>
     <string name="app_name">FieldWork</string>
     <string name="app_picker_name">Applications</string>
     <string name="appointments">Appointments</string>
@@ -436,6 +437,7 @@
     <string name="error_input">wrong input</string>
     <string name="folder_name">Folder Name</string>
     <string name="header_text_color">#333333</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="history_clear_one_history_text">Clear</string>
     <string name="history_clear_text">Clear history</string>
@@ -561,7 +563,7 @@
     <string name="title_about">Barcode Scanner v</string>
     <string name="title_activity_start">StartActivity</string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_login">Login</string>
+    <string name="title_login">Log in</string>
     <string name="username_hint">Username</string>
     <string name="wifi_changing_network">Requesting connection to network\u2026</string>
     <string name="wifi_ssid_label">Network Name</string>

@@ -1,9 +1,10 @@
 <resources>
 
     <string name="app_name">FieldWork</string>
+    <string name="app_home">Home</string>
     <!-- <string name="menu_settings">Settings</string> -->
     <!-- <string name="title_activity_main">MainActivity</string> -->
-    <string name="title_login">Login</string>
+    <string name="title_login">Log in</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
@@ -243,5 +244,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     
 </resources>

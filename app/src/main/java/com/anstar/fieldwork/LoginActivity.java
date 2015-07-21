@@ -81,32 +81,9 @@ public class LoginActivity extends AppCompatActivity {
 		edtUsername = (EditText) findViewById(R.id.edtUsername);
 		edtPassword = (EditText) findViewById(R.id.edtPassword);
 
-		// key= af785da4b8ab55b14bc58edff0b0637e16d49ce237691a71
-		// edtUsername.setText("samcom@gmail.com");
-		// edtPassword.setText("samir");
-
-		// edtUsername.setText("beau@anstarproducts.com");
-		// edtPassword.setText("secretsy");
-
-		// edtUsername.setText("jklescewski@gmail.com");
-		// edtPassword.setText("joe");
-//		edtUsername.setText("samcom.technobrains@gmail.com");
-//		edtPassword.setText("password");
-		// jklescewski@gmail.com
-		// pass: joe - 21679af9f30953f7b6fef23abfbb3b71b11da3b7b7da2810
-		//action = getSupportActionBar();
-		// action.setTitle(Html.fromHtml("<font color='#34495E'>Login</font>"));
-		// action.setTitle("Login");
-		//action.hide();
-
-/*
-		if (isLogin()) {
-			Intent i = new Intent(this, DashboardActivity.class);
-            i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(i);
-            finish();
-		}
-*/
+		edtUsername.setText("guest@anstarproducts.com");
+		edtPassword.setText("guest");
+		
 		btnLogin.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				login();
